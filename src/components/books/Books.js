@@ -13,7 +13,6 @@ export default class Books extends Component {
     return (
       <ul>
         {items.map((item, i) => {
-          console.log(item);
           return <Book key={i} book={item}/>;
         })}
       </ul>

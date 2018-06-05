@@ -7,3 +7,8 @@ header {
 .total {
   text-align: center;
 }
+
+.none {
+  font-size: 1.25em;
+  font-weight: bold;
+}

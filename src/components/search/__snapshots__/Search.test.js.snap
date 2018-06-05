@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Renders Properly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <label>
+    Search for books by subject:
+    <input
+      name="search"
+      onChange={[Function]}
+      value=""
+    />
+  </label>
+  <button>
+    Find
+  </button>
+</form>
+`;

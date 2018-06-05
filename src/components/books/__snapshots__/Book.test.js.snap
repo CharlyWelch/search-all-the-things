@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Book renders with props 1`] = `
+<li>
+  <a
+    href="https://www.googleapis.com/books/v1/volumes/UWy3AQAACAAJ"
+    target="_blank"
+  >
+    <h2>
+      Coming to the Fire
+       by 
+      Gavin Ehringer
+    </h2>
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc5ewfk-9xrAwUt2clcSPwklh4-lfK2qDvROMNcUsSy3VmKGI_"
+    />
+    <p
+      className="published"
+    >
+       Published 
+      2017-12-05
+       
+    </p>
+    <p>
+      A thought-provoking and surprising book that explores the ever-evolving relationship between humans and domesticated animals.
+    </p>
+  </a>
+</li>
+`;

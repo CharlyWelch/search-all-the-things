@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Books renders with props 1`] = `
+<ul>
+  <Book
+    book={
+      Object {
+        "etag": "mWuxVpRF0Hw",
+        "id": "UWy3AQAACAAJ",
+        "imageLinks": Object {
+          "thumbnail": "http://books.google.com/books/content?id=UWy3AQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        },
+        "kind": "books#volume",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/UWy3AQAACAAJ",
+        "volumeInfo": Object {
+          "authors": Array [
+            "Gavin Ehringer",
+          ],
+          "description": "A thought-provoking and surprising book that explores the ever-evolving relationship between humans and domesticated animals.",
+          "publishedDate": "2017-12-05",
+          "subtitle": "Exploring Our Shared History with Dogs, Cats, Cows, and Horses",
+          "title": "Coming to the Fire",
+        },
+      }
+    }
+    key="0"
+  />
+  <Book
+    book={
+      Object {
+        "id": "2qg1DwAAQBAJ",
+        "kind": "books#volume",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/2qg1DwAAQBAJ",
+        "volumeInfo": Object {
+          "authors": Array [
+            "Alice Villalobos",
+          ],
+          "description": "Canine and Feline Geriatric Oncology: Honoring the Human-Animal Bond, Second Edition provides a complete clinical approach to the most common neoplasias in geriatric dogs and cats. Provides the tools needed to diagnose and treat aging pets with cancer and to help clients make the best decisions for themselves and their animals Addresses the 'what-ifs' that often arise during interactions with clients of aging pets with cancer and helps to determine when a pet should enter the hospice phase Features many vignettes and real-life case studies to demonstrate the issues faced by clinicians and owners dealing with older dogs and cats with cancer and end-of-life issues Fully updated and expanded with new and revised information, including new knowledge on palliative and hospice care and self-care techniques for carers",
+          "imageLinks": Object {
+            "thumbnail": "http://books.google.com/books/content?id=2qg1DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+          },
+          "publishedDate": "2017-11-29",
+          "subtitle": "Honoring the Human-Animal Bond",
+          "title": "Canine and Feline Geriatric Oncology",
+        },
+      }
+    }
+    key="1"
+  />
+</ul>
+`;
